@@ -3,7 +3,9 @@ Simple software to send TracCar positions to APRS network
 
 
 # How to run:
+```
 node traccar2aprs.js
+```
 
 # TracCar config:
 on traccar/conf/traccar.xml file add:
