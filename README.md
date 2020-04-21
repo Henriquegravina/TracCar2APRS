@@ -7,8 +7,8 @@ node traccar2aprs.js
 
 # TracCar config:
 on traccar/conf/traccar.xml file add:
-<code>
+```
 <entry key='forward.enable'>true</entry>
 <entry key='forward.json'>true</entry>
 <entry key='forward.url'>http://localhost:3001/aprs</entry>
-</code>
+```
