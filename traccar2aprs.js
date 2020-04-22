@@ -73,7 +73,7 @@ function parse_data(traccar_data){
    
    if(user_list[traccar_data.device.uniqueId]){
       
-    user_data = user_list["4210263856"]
+    user_data = user_list[traccar_data.device.uniqueId]
     dxcallsign = user_data["Call"]
     table_selection = user_data["TableSelection"]
     table_icon = user_data["TableIcom"]
